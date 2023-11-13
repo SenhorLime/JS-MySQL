@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+
+    <script defer src="script.js"></script>
+
+    <title>JS + MySQL</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Consulta de Quantidade por Estoque</h1>
+
+      <div class="input-field">
+        <input
+          id="userInput"
+          type="text"
+          placeholder="Digite o valor do estoque"
+        />
+        <button id="search-button" onclick="search()">
+          <span class="material-icons"> search </span>
+        </button>
+      </div>
+
+      <div id="result"></div>
+    </div>
+  </body>
+</html>
