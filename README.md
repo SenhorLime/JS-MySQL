@@ -11,7 +11,7 @@ Este projeto foi feito devido a minha curiosidade e vontade de explorar a lingua
 ## **Como executar**
 1. **Clone o Repositório**
 ```bash
-git clone 
+git clone https://github.com/SenhorLime/JS-MySQL.git
 ```
 2. **Configuração do MySQL**
 
@@ -66,7 +66,7 @@ end;
 ``` 
 
 3. **Modificar o arquivo app.js**
-O arquivo app.js cria um servidor local que acessar os dados do MySQL, mas provavelmente será necessario modificar algumas linhas deste arquivo para que ele rode perfeitamente.
+O arquivo [app.js](https://github.com/SenhorLime/JS-MySQL/blob/master/Backend/app.js) cria um servidor local que acessar os dados do MySQL, mas provavelmente será necessario modificar algumas linhas deste arquivo para que ele rode perfeitamente.
 
 As linhas são as seguinte:
 ```js
@@ -87,5 +87,7 @@ npm run start-mysql
 
 Com isso feito, você só precisa abrir o arquivo HTML no seu navegador e fazer uma pesquisa.
 
+---
 > ### **Observação**
->> Caso aconteça algum problema durante a execução do projeto verificque se você tem todos os requisitos instalados. Caso continuar com problema procure ajuda na seção de Issues do repositório.
+>> Caso aconteça algum problema durante a execução do projeto verificque se você tem todos os requisitos instalados. Caso continuar com problema procure ajuda na seção de [Issues](https://github.com/SenhorLime/JS-MySQL/issues) do repositório.
+
